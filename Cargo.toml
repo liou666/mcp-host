@@ -1,0 +1,17 @@
+[workspace]
+members = [
+    "crates/*",
+    "examples/host",
+]
+resolver = "2"
+
+[workspace.dependencies]
+mcp-core = { path = "./crates/mcp-core" }
+mcp-macros = { path = "./crates/mcp-macros" }
+
+[workspace.package]
+edition = "2021"
+version = "1.0.7"
+license = "MIT"
+repository = "https://github.com/modelcontextprotocol/rust-sdk/"
+description = "Rust SDK for the Model Context Protocol"

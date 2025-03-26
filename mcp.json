@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "mcp-hn": {
+      "name": "mcp-hn",
+      "command": "uvx",
+      "args": ["mcp-hn"],
+      "is_active": true
+    }
+  }
+}
